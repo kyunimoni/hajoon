@@ -30,7 +30,7 @@
 			}
 		}
 
-		body += '<div class="col-md-6 col-sm-6">' + section1 + '</div><div class="col-md-6 col-sm-6">' + section2 + '</div>';
+		body += '<div class="col-md-6 col-xs-6">' + section1 + '</div><div class="col-md-6 col-xs-6">' + section2 + '</div>';
 
 		$('#' + id).append(body);
 	}
@@ -323,7 +323,7 @@
 		testimonialCarousel();
 		sliderMain();
 		clickMenu();
-		parallax();
+		// parallax();
 		// windowScroll();
 		navigationSection();
 		contentWayPoint();
