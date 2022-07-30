@@ -318,8 +318,8 @@
 	// Document on load.
 	$(function(){
 		addPhotos('1year-photos', '1 Year', 'gal1', '1year', 9);
-		addPhotos('100days-photos', '100 Days', 'gal2', '100days', 10);
-		addPhotos('50days-photos', '50 Days', 'gal3', '50days', 17);
+		addPhotos('100days-photos', '100 Days', 'gal2', '100days', 6);
+		addPhotos('50days-photos', '50 Days', 'gal3', '50days', 8);
 		addPhotos('baby-photos', 'Baby', 'gal4', 'baby', 4);
 		
 		burgerMenu();
@@ -351,7 +351,7 @@
 			});
 	var contentString = [
 			'<div class="iw_inner" style="padding: 10px;">',
-			'   <h3 style="font-weight: bold; color: #26304d; padding: 0; margin: 10px 0 0;">마키노차야</h3>',
+			'   <h3 style="color: #26304d; padding: 0; margin: 10px 0 0;">마키노차야</h3>',
 			'   <p style="margin-bottom: 10px;">세종 도움1로 7 베스트웨스턴플러스호텔 3층 316호</p>',
 			'</div>'
 	].join('');
