@@ -5,9 +5,9 @@
 *
 * ======================================================= */
 body {
-  font-family: 'NanumDongHwaDdoBag';
+  font-family: 'NanumBarunPen';
   font-weight: 400;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 1.8;
   color: #777777;
   color: #7f7f7f;
@@ -33,7 +33,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
-  font-family: "NanumDongHwaDdoBag", cursive;
+  font-family: "NanumBarunPen", cursive;
   font-weight: 400;
 }
 
@@ -100,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
 }
 #qbootstrap-header #navbar li a {
-  font-family: 'NanumDongHwaDdoBag';
+  font-family: 'NanumBarunPen';
   color: rgba(255, 255, 255, 0.5);
   position: relative;
 }
@@ -156,7 +156,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 34px;
   padding-left: 0;
   color: #fff;
-  font-family: "NanumDongHwaDdoBag", cursive;
+  font-family: "NanumBarunPen", cursive;
 }
 #qbootstrap-header.navbar-fixed-top {
   position: fixed !important;
@@ -361,7 +361,7 @@ h1, h2, h3, h4, h5, h6 {
 .qbootstrap-cover .display-tc .holder,
 .video-hero .display-tc .holder {
   color: #fff;
-  font-family: 'NanumDongHwaDdoBag';
+  font-family: 'NanumBarunPen';
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 10px;
@@ -433,7 +433,7 @@ h1, h2, h3, h4, h5, h6 {
 .video-hero .display-tc p {
   color: #fff;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 25px;
   letter-spacing: 10px;
 }
 .qbootstrap-cover .display-tc .svg-sm .svg,
@@ -523,7 +523,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #qbootstrap-slider-hero .flexslider .slider-text > .slider-text-inner .holder {
   color: #fff;
-  font-family: 'NanumDongHwaDdoBag';
+  font-family: 'NanumBarunPen';
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 10px;
@@ -568,7 +568,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 20px;
   line-height: 1.5;
   margin-bottom: 40px;
-  font-family: 'NanumDongHwaDdoBag';
+  font-family: 'NanumBarunPen';
 }
 #qbootstrap-slider-hero .flexslider .slider-text > .slider-text-inner h2 a {
   color: rgba(255, 255, 255, 0.5);
@@ -608,7 +608,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #qbootstrap-couple h3 {
   font-size: 34px;
-  font-family: "NanumDongHwaDdoBag", cursive;
+  font-family: "NanumBarunPen", cursive;
   color: #FF847C;
 }
 @media screen and (max-width: 768px) {
@@ -686,18 +686,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 #qbootstrap-countdown .countdown {
   margin-bottom: 0;
-  font-size: 80px;
+  font-size: 60px;
   color: #fff;
 }
 #qbootstrap-countdown .countdown span {
-  margin: 0 30px;
+  margin: 0 20px;
   display: inline-block;
-  font-family: "NanumDongHwaDdoBag", cursive;
+  font-family: "NanumBarunPen", cursive;
 }
 #qbootstrap-countdown .countdown small {
   display: block;
   font-size: 14px;
-  font-family: 'NanumDongHwaDdoBag';
+  font-family: 'NanumBarunPen';
   letter-spacing: 10px;
   text-transform: uppercase;
 }
@@ -1075,7 +1075,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   padding: 0;
   font-size: 30px;
-  font-family: "NanumDongHwaDdoBag", cursive;
+  font-family: "NanumBarunPen", cursive;
   font-style: italic;
 }
 #qbootstrap-testimonials .arrow-thumb {
@@ -1119,7 +1119,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .groom-men h3 {
-  font-family: "NanumDongHwaDdoBag", cursive;
+  font-family: "NanumBarunPen", cursive;
   font-size: 28px;
 }
 
@@ -1165,7 +1165,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .wedding-events .desc .date span {
   display: block;
-  font-size: 24px;
+  font-size: 18px;
   color: rgba(0, 0, 0, 0.7);
 }
 .wedding-events .desc .icon-tip {
