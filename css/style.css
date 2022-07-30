@@ -7,7 +7,7 @@
 body {
   font-family: 'NanumDongHwaDdoBag';
   font-weight: 400;
-  font-size: 18px;
+  font-size: 25px;
   line-height: 1.8;
   color: #777777;
   color: #7f7f7f;
@@ -1165,7 +1165,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .wedding-events .desc .date span {
   display: block;
-  font-size: 16px;
+  font-size: 24px;
   color: rgba(0, 0, 0, 0.7);
 }
 .wedding-events .desc .icon-tip {
@@ -1677,4 +1677,3 @@ h1, h2, h3, h4, h5, h6 {
   animation-fill-mode: both;
 }
 
-/*# sourceMappingURL=style.css.map */

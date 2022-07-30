@@ -14,14 +14,14 @@
 	    );
 	};
 
-	var addPhotos = function(id, title, path, count){
-		var body = '<div class="col-md-10 col-md-offset-1 subtext"><h1 style="text-align: center;">' + title + '</h1></div>';
+	var addPhotos = function(id, title, clsName, path, count){
+		var body = '<div class="col-md-10 col-md-offset-1 subtext"><h1 style="text-align: center; margin-bottom: 20px;">' + title + '</h1></div>';
 
 		var section1 = '';
 		var section2 = '';
 		for(var i = 0; i < count; i++) {
 			var imagePath = 'images/' + path + '/image_' + (i + 1) + '.jpg';
-			var content = '<div class="gallery animate-box"><a class="gallery-img image-popup image-popup" href="' + imagePath + '"><img src="' + imagePath + '" class="img-responsive"></a></div>'
+			var content = '<div class="gallery animate-box"><a class="gallery-img image-popup image-popup ' + clsName + '" href="' + imagePath + '"><img src="' + imagePath + '" class="img-responsive"></a></div>'
 
 			if (i%2 === 0) {
 				section1 += content;
@@ -33,6 +33,9 @@
 		body += '<div class="col-md-6 col-xs-6">' + section1 + '</div><div class="col-md-6 col-xs-6">' + section2 + '</div>';
 
 		$('#' + id).append(body);
+		var lightbox = GLightbox({
+			selector: '.' + clsName,
+		});
 	}
 
 
@@ -314,10 +317,10 @@
 
 	// Document on load.
 	$(function(){
-		addPhotos('1year-photos', '1 Year Photos', '1year', 9);
-		addPhotos('100days-photos', '100 Days Photos', '100days', 10);
-		addPhotos('50days-photos', '50 Days Photos', '50days', 17);
-		addPhotos('baby-photos', 'Baby Photos', 'baby', 5);
+		addPhotos('1year-photos', '1 Year', 'gal1', '1year', 9);
+		addPhotos('100days-photos', '100 Days', 'gal2', '100days', 10);
+		addPhotos('50days-photos', '50 Days', 'gal3', '50days', 17);
+		addPhotos('baby-photos', 'Baby', 'gal4', 'baby', 5);
 		
 		burgerMenu();
 		testimonialCarousel();
