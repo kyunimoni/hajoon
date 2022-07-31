@@ -317,7 +317,7 @@
 
 	// Document on load.
 	$(function(){
-		addPhotos('1year-photos', '1 Year', 'gal1', '1year', 9);
+		addPhotos('1year-photos', '1 Year', 'gal1', '1year', 13);
 		addPhotos('100days-photos', '100 Days', 'gal2', '100days', 6);
 		addPhotos('50days-photos', '50 Days', 'gal3', '50days', 8);
 		addPhotos('baby-photos', 'Baby', 'gal4', 'baby', 4);
